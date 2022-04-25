@@ -29,8 +29,8 @@ def split(fname_src: str, fname_dest_prefix: str, maxsize_per_file: float):
                 idx += 1
                 is_file_open = False            
         dest.close()
-        
-        return dest_fnames
+
+    return dest_fnames
     
 
 def combine(fname_in: list, fname_out: str):
